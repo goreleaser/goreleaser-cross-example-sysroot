@@ -1,0 +1,31 @@
+#ifndef ATL_INSTINFO_H
+   #define ATL_INSTINFO_H
+
+#define ATL_ARCH "GENERIC32"
+#define ATL_INSTFLAGS "-1 0 -a 1 -l 1"
+#define ATL_F2CDEFS "-DAdd_ -DF77_INTEGER=int -DStringSunStyle"
+#define ATL_ARCHDEFS "-DATL_OS_Linux -DATL_ARCH_GENERIC -DATL_GAS_ARM"
+#define ATL_DKCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-jpV5es/atlas-3.10.3=. -fstack-protector-strong -fPIC"
+#define ATL_DKC "/usr/bin/gcc"
+#define ATL_SKCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-jpV5es/atlas-3.10.3=. -fstack-protector-strong -fPIC"
+#define ATL_SKC "/usr/bin/gcc"
+#define ATL_DMCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-jpV5es/atlas-3.10.3=. -fstack-protector-strong -fPIC"
+#define ATL_DMC "/usr/bin/gcc"
+#define ATL_SMCFLAGS "-Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-jpV5es/atlas-3.10.3=. -fstack-protector-strong -fPIC"
+#define ATL_SMC "/usr/bin/gcc"
+#define ATL_ICCFLAGS "-DL2SIZE=4194304 -I/build/atlas-jpV5es/atlas-3.10.3/build/include -I/build/atlas-jpV5es/atlas-3.10.3/build/..//include -I/build/atlas-jpV5es/atlas-3.10.3/build/..//include/contrib -DAdd_ -DF77_INTEGER=int -DStringSunStyle -DATL_OS_Linux -DATL_ARCH_GENERIC -DATL_GAS_ARM -DATL_DYLIBS -DWALL -DATL_ARM_HARDFP=1 -Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/build/atlas-jpV5es/atlas-3.10.3=. -fstack-protector-strong -fPIC"
+#define ATL_ICC "/usr/bin/gcc"
+#define ATL_F77FLAGS "-g -O2 -fdebug-prefix-map=/build/atlas-jpV5es/atlas-3.10.3=. -fstack-protector-strong -fPIC"
+#define ATL_F77 "/usr/bin/gfortran"
+#define ATL_DKCVERS "gcc (Raspbian 8.2.0-15+rpi1) 8.2.0"
+#define ATL_SKCVERS "gcc (Raspbian 8.2.0-15+rpi1) 8.2.0"
+#define ATL_DMCVERS "gcc (Raspbian 8.2.0-15+rpi1) 8.2.0"
+#define ATL_SMCVERS "gcc (Raspbian 8.2.0-15+rpi1) 8.2.0"
+#define ATL_ICCVERS "gcc (Raspbian 8.2.0-15+rpi1) 8.2.0"
+#define ATL_F77VERS "GNU Fortran (Raspbian 8.2.0-15+rpi1) 8.2.0"
+#define ATL_SYSINFO "Linux autoforwardporter 4.4.0-124-generic #148-Ubuntu SMP Wed May 2 13:04:12 UTC 2018 armv8l GNU/Linux"
+#define ATL_DATE    "Tue Feb  5 17:06:38 UTC 2019"
+#define ATL_UNAM    "autoforwardporter"
+#define ATL_VERS    "3.10.3"
+
+#endif

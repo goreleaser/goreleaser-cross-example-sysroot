@@ -1,0 +1,1 @@
+../../Cellar/libusb/1.0.23/lib/pkgconfig/libusb-1.0.pc

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib/arm-linux-gnueabihf
+includedir=${prefix}/include
+
+Name: x264
+Description: H.264 (MPEG4 AVC) encoder library
+Version: 0.155.2917 0a84d98
+Libs: -L/usr/lib/arm-linux-gnueabihf -lx264 
+Libs.private: -lpthread -lm -ldl
+Cflags: -I${prefix}/include
